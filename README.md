@@ -22,8 +22,8 @@ HTML • CSS • JavaScript
 
 ## Live Website
 
-
-
+ https://hiva3.github.io/zayan-jewelry/
+ 
 ## Project Status
 
 The initial web experience is complete. The project may continue to evolve with additional features and experimentation.
