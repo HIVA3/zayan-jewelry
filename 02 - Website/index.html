@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ZAYAN — Bijoux marocains contemporains inspirés d'un héritage vivant." />
+  <title>ZAYAN | Bijoux marocains contemporains</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header" id="site-header">
+    <a href="#top" class="logo" aria-label="ZAYAN accueil">ZAYAN</a>
+
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a href="#nouveautes">Nouveautés</a>
+      <a href="#categories">Boutique</a>
+      <a href="#heritage">Notre vision</a>
+      <a href="#univers">Univers</a>
+      <a href="#journal">Journal</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-button" aria-label="Rechercher">Search</button>
+      <button class="icon-button" aria-label="Compte">Account</button>
+      <button class="icon-button" aria-label="Panier">Bag <span class="bag-count">0</span></button>
+      <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero-slider" aria-label="Campagnes ZAYAN">
+      <article class="hero-slide active">
+        <img src="assets/hero-heritage.png" alt="Bijou marocain traditionnel ZAYAN" class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Héritage vivant</p>
+          <h1>Le patrimoine marocain,<br>à porter aujourd’hui.</h1>
+          <p class="hero-description">Des pièces de caractère issues d’un héritage riche, pensées pour entrer dans la vie contemporaine.</p>
+          <a href="#nouveautes" class="primary-button">Découvrir la collection</a>
+        </div>
+      </article>
+
+      <article class="hero-slide">
+        <img src="assets/hero-modern.png" alt="Bijou marocain porté avec une tenue contemporaine" class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Héritage × Aujourd'hui</p>
+          <h2>Le bijou n’a pas changé.<br>La façon de le porter, oui.</h2>
+          <p class="hero-description">Argent, Jouhar, pièces d’apparat et détails traditionnels rencontrent denim, chemises blanches et tailoring.</p>
+          <a href="#heritage" class="primary-button">Voir le concept</a>
+        </div>
+      </article>
+
+      <article class="hero-slide">
+        <img src="assets/hero-new.png" alt="Création contemporaine inspirée du patrimoine marocain" class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Nouvelle génération</p>
+          <h2>Créer aujourd’hui.<br>Transmettre demain.</h2>
+          <p class="hero-description">De nouvelles formes inspirées par les couleurs, symboles, matières et savoir-faire du Maroc.</p>
+          <a href="#univers" class="primary-button">Explorer les univers</a>
+        </div>
+      </article>
+
+      <button class="slider-arrow slider-prev" aria-label="Slide précédente">←</button>
+      <button class="slider-arrow slider-next" aria-label="Slide suivante">→</button>
+
+      <div class="slider-dots" aria-label="Navigation du slider">
+        <button class="slider-dot active" aria-label="Slide 1"></button>
+        <button class="slider-dot" aria-label="Slide 2"></button>
+        <button class="slider-dot" aria-label="Slide 3"></button>
+      </div>
+    </section>
+
+    <!-- NEW PRODUCTS: moved immediately after hero -->
+    <section class="products-section" id="nouveautes">
+      <div class="section-header">
+        <div>
+          <p class="section-label">À découvrir maintenant</p>
+          <h2>Nouveautés</h2>
+        </div>
+        <a href="#categories" class="text-link">Voir toutes les pièces →</a>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <a href="#" class="product-image-wrapper">
+            <img src="assets/product-jouhar.png" alt="Collier Jouhar ZAYAN" class="product-image">
+            <span class="product-badge">Nouveau</span>
+          </a>
+          <button class="wishlist-button" aria-label="Ajouter Collier Nour aux favoris">♡</button>
+          <div class="product-info">
+            <p class="product-universe">Jouhar</p>
+            <h3>Collier Nour</h3>
+            <p class="product-price">890 MAD</p>
+            <a href="#" class="product-cta">Voir la pièce →</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a href="#" class="product-image-wrapper">
+            <img src="assets/product-nqra.png" alt="Boucles Nqra ZAYAN" class="product-image">
+          </a>
+          <button class="wishlist-button" aria-label="Ajouter Boucles Tiziri aux favoris">♡</button>
+          <div class="product-info">
+            <p class="product-universe">Nqra</p>
+            <h3>Boucles Tiziri</h3>
+            <p class="product-price">650 MAD</p>
+            <a href="#" class="product-cta">Voir la pièce →</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a href="#" class="product-image-wrapper">
+            <img src="assets/product-color.png" alt="Bracelet Atlas coloré" class="product-image">
+            <span class="product-badge">Nouveau</span>
+          </a>
+          <button class="wishlist-button" aria-label="Ajouter Bracelet Atlas aux favoris">♡</button>
+          <div class="product-info">
+            <p class="product-universe">Nouvelle génération</p>
+            <h3>Bracelet Atlas</h3>
+            <p class="product-price">720 MAD</p>
+            <a href="#" class="product-cta">Voir la pièce →</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a href="#" class="product-image-wrapper">
+            <img src="assets/product-modern.png" alt="Bague Zellij ZAYAN" class="product-image">
+          </a>
+          <button class="wishlist-button" aria-label="Ajouter Bague Zellij aux favoris">♡</button>
+          <div class="product-info">
+            <p class="product-universe">Aujourd'hui</p>
+            <h3>Bague Zellij</h3>
+            <p class="product-price">590 MAD</p>
+            <a href="#" class="product-cta">Voir la pièce →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CATEGORY SHOP -->
+    <section class="category-section" id="categories">
+      <div class="section-header">
+        <div>
+          <p class="section-label">Boutique</p>
+          <h2>Explorer par catégorie</h2>
+        </div>
+      </div>
+
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <img src="assets/category-necklaces.png" alt="Colliers ZAYAN">
+          <div class="category-overlay"><h3>Colliers</h3><span>Découvrir →</span></div>
+        </a>
+        <a href="#" class="category-card">
+          <img src="assets/category-earrings.png" alt="Boucles d'oreilles ZAYAN">
+          <div class="category-overlay"><h3>Boucles</h3><span>Découvrir →</span></div>
+        </a>
+        <a href="#" class="category-card">
+          <img src="assets/category-bracelets.png" alt="Bracelets ZAYAN">
+          <div class="category-overlay"><h3>Bracelets</h3><span>Découvrir →</span></div>
+        </a>
+        <a href="#" class="category-card">
+          <img src="assets/category-rings.png" alt="Bagues ZAYAN">
+          <div class="category-overlay"><h3>Bagues</h3><span>Découvrir →</span></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- SHORT BRAND STATEMENT -->
+    <section class="brand-statement">
+      <p class="section-label">Notre idée</p>
+      <h2>Heritage is not a style.<br>It is a source.</h2>
+      <p>ZAYAN explore le patrimoine joaillier marocain comme une matière vivante : quelque chose que l’on transmet, que l’on porte autrement et que l’on continue de créer.</p>
+    </section>
+
+    <!-- HERO CONCEPT MOMENT -->
+    <section class="evolution-section" id="heritage">
+      <div class="evolution-images">
+        <figure class="evolution-image">
+          <img src="assets/traditional-style.png" alt="Bijou marocain porté traditionnellement">
+          <figcaption>Héritage</figcaption>
+        </figure>
+        <figure class="evolution-image">
+          <img src="assets/modern-style.png" alt="Bijou marocain porté avec une tenue contemporaine">
+          <figcaption>Aujourd'hui</figcaption>
+        </figure>
+      </div>
+
+      <div class="evolution-content">
+        <p class="section-label">Une autre façon de porter</p>
+        <h2>Le bijou n’a pas perdu son héritage.</h2>
+        <p>Une mdamma avec un costume. L’argent avec du denim. Le Jouhar avec une silhouette quotidienne.</p>
+        <p>ZAYAN ne cherche pas à effacer la tradition, mais à lui donner de nouveaux espaces pour vivre.</p>
+        <a href="#univers" class="text-link">Explorer les univers →</a>
+      </div>
+    </section>
+
+    <!-- UNIVERSES -->
+    <section class="universes-section" id="univers">
+      <div class="section-header centered">
+        <p class="section-label">Collections</p>
+        <h2>Les univers ZAYAN</h2>
+        <p class="section-description">Plusieurs expressions. Une même source : le Maroc.</p>
+      </div>
+
+      <div class="universe-grid">
+        <a href="#" class="universe-card">
+          <img src="assets/universe-jouhar.png" alt="Univers Jouhar">
+          <div class="universe-content"><p>Doux • lumineux • féminin</p><h3>JOUHAR</h3><span>Découvrir →</span></div>
+        </a>
+        <a href="#" class="universe-card">
+          <img src="assets/universe-nqra.png" alt="Univers Nqra">
+          <div class="universe-content"><p>Argent • gravure • caractère</p><h3>NQRA</h3><span>Découvrir →</span></div>
+        </a>
+        <a href="#" class="universe-card">
+          <img src="assets/universe-heritage.png" alt="Univers Héritage">
+          <div class="universe-content"><p>Histoire • volume • expression</p><h3>HÉRITAGE</h3><span>Découvrir →</span></div>
+        </a>
+        <a href="#" class="universe-card">
+          <img src="assets/universe-youth.png" alt="Univers Nouvelle génération">
+          <div class="universe-content"><p>Couleur • liberté • expérimentation</p><h3>NOUVELLE GÉNÉRATION</h3><span>Découvrir →</span></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- CRAFT: only one deep story section remains -->
+    <section class="craft-section" id="savoir-faire">
+      <div class="craft-image">
+        <img src="assets/craftsmanship.png" alt="Artisanat et savoir-faire marocain">
+      </div>
+      <div class="craft-content">
+        <p class="section-label">Savoir-faire</p>
+        <h2>Derrière chaque pièce, une histoire de gestes.</h2>
+        <p>Métal, pierre, couleur, gravure et détail : ZAYAN puise dans les savoir-faire marocains pour imaginer des pièces pensées avec respect, curiosité et intention.</p>
+        <a href="#journal" class="text-link">Découvrir l’histoire →</a>
+      </div>
+    </section>
+
+    <!-- TRUST -->
+    <section class="trust-section" aria-label="Services ZAYAN">
+      <div class="trust-item"><h3>Inspiration marocaine</h3><p>Un patrimoine pluriel, des créations contemporaines.</p></div>
+      <div class="trust-item"><h3>Pensé avec intention</h3><p>Une histoire derrière chaque collection.</p></div>
+      <div class="trust-item"><h3>Commande simple</h3><p>Commande en ligne ou via WhatsApp selon la collection.</p></div>
+      <div class="trust-item"><h3>Livraison au Maroc</h3><p>Livraison et paiement à la réception disponibles.</p></div>
+    </section>
+
+    <!-- JOURNAL -->
+    <section class="journal-section" id="journal">
+      <div class="section-header">
+        <div><p class="section-label">Journal ZAYAN</p><h2>Histoires, patrimoine & création</h2></div>
+      </div>
+
+      <div class="journal-grid">
+        <article class="journal-card">
+          <img src="assets/journal-1.png" alt="Bijou marocain et objets de patrimoine">
+          <p class="journal-category">Héritage</p>
+          <h3>Le bijou marocain au-delà des occasions</h3>
+          <a href="#">Lire →</a>
+        </article>
+
+        <article class="journal-card">
+          <img src="assets/journal-2.png" alt="Carnet de création joaillière">
+          <p class="journal-category">Création</p>
+          <h3>Comment un motif ancien devient une pièce contemporaine</h3>
+          <a href="#">Lire →</a>
+        </article>
+
+        <article class="journal-card">
+          <img src="assets/journal-3.png" alt="Croquis de bijoux portés avec un style contemporain">
+          <p class="journal-category">Style</p>
+          <h3>Porter l’héritage autrement</h3>
+          <a href="#">Lire →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter-section">
+      <p class="section-label">L’univers ZAYAN</p>
+      <h2>Continuer l’histoire avec nous.</h2>
+      <p>Découvrez les nouvelles collections, créations et histoires ZAYAN.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Votre adresse e-mail" aria-label="Votre adresse e-mail" required>
+        <button type="submit">S’inscrire</button>
+      </form>
+      <p class="form-message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <a href="#top" class="footer-logo">ZAYAN</a>
+      <p>Bijoux marocains contemporains. Un héritage vivant.</p>
+    </div>
+
+    <div class="footer-column"><h3>Boutique</h3><a href="#nouveautes">Nouveautés</a><a href="#categories">Colliers</a><a href="#categories">Boucles</a><a href="#categories">Bracelets</a><a href="#categories">Bagues</a></div>
+    <div class="footer-column"><h3>ZAYAN</h3><a href="#heritage">Notre vision</a><a href="#savoir-faire">Savoir-faire</a><a href="#journal">Journal</a><a href="#">Contact</a></div>
+    <div class="footer-column"><h3>Aide</h3><a href="#">Livraison</a><a href="#">Retours</a><a href="#">Commander</a><a href="#">FAQ</a></div>
+    <div class="footer-column"><h3>Suivre ZAYAN</h3><a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">TikTok</a></div>
+
+    <div class="footer-bottom">
+      <p>© 2026 ZAYAN</p>
+      <div><a href="#">Mentions légales</a><a href="#">Confidentialité</a><a href="#">Conditions générales</a></div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
